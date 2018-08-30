@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Editoras</title>        
+        <style>
+                .formulario{
+                    position: fixed;
+                    top: 20%;
+                    left: 30%;                   
+                }         
+            </style>
+
+    </head>
+    <body>
+
+    <form class="formulario" name="formulario" id="formulario_cadastro" action="" method="post">
+
+    <label>Nome</label> <input type="text" name="nome" size="40" maxlength="150" /><br />
+	<label>Endereço</label> <input type="text" name="endereco" size="40" maxlength="150" /><br />
+	<label>CNPJ</label> <input type="text" name="cpf" size="20" maxlength="14" /><br />
+	<label>Telefone</label> <input type="tel" name="telefone" size="20" maxlength="20" /><br />
+    <label>E-mail</label> <input type="email" name="email" size="40" maxlength="150" /><br />
+    <label>Site</label> <input type="text" name="site" size="40" maxlength="150" /><br />
+    <label>Nome de Contato</label> <input type="text" name="contato" size="40" maxlength="150" /><br />
+	Gênero de Publicações
+	<input type="checkbox" id="policial" name="policial" value="P" /> <label for="policial">Policial</label>
+    <input type="checkbox" id="Ficção" name="ficcao" value="F" /> <label for="ficcao">Ficção</label> 
+    <input type="checkbox" id="NFicção" name="ficcao" value="NF" /> <label for="nficcao">Não-Ficção</label>
+    <input type="checkbox" id="esporte" name="esporte" value="E" /> <label for="esporte">Esporte</label> 
+    <input type="checkbox" id="profissional" name="profissional" value="Pr" /> <label for="profissional">Profissional</label>
+    <input type="checkbox" id="religioso" name="religioso" value="R" /> <label for="religioso">Religioso</label></br>
+	
+	<input type="submit" name="enviar" value="Enviar" />
+    
+    </form>
+
+    </body>
+</html>
